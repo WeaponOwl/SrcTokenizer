@@ -68,11 +68,6 @@ namespace CppParser
 
         public static void Main(string[] args)
         {
-            string path = @"D:\ProgrammingNew\ChatScriptLite\ChatScriptLite\mainSystem.cpp";
-            var cs = new CharSource(System.IO.File.OpenRead(path));
-            var t = new CppTokenizer(cs, path, null);
-            t.type_code_tokenize();
-            //----------------------
             int optind = 1;
             string optarg = "";
             string opt = "";
